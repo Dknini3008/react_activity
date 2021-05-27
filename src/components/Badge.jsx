@@ -8,11 +8,11 @@ class Badge extends Component {
     render() {
         return ( 
         <React.Fragment>
-            <div className = "Badge m-5">
+            <div className = "Badge m-4">
                 <div className= "Badge__header">
                     <img src={this.props.header_picture} alt="header_background" />
                 </div>
-                <div className="Badge__userInfo container mt-5 mb-1">
+                <div className="Badge__userInfo container mt-5">
                     <div className="Badge__userImage">
                         <img src={this.props.profile_picture} alt="Profile_picture" />
                     </div>
