@@ -1,0 +1,26 @@
+.BadgeForm{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 400px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.Submit__button{
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    display: block;
+    align-self: center;
+    border: 1px solid lightgray;
+}
+
+
+.Submit__button:hover{
+    background-color: green;
+    color: honeydew;
+    font-weight: bold;
+}
