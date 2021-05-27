@@ -5,7 +5,7 @@ const Footer = () =>{
     return(
         <React.Fragment>
             <div className="Footer">
-                <p> Footer Example </p>
+                <p> Footer made by the best programmer in his house </p>
             </div>
         </React.Fragment>
     );

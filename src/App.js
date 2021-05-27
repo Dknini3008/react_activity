@@ -10,8 +10,10 @@ function App() {
   return (
     <BrowserRouter>
       <Layout>
-        <NewBadge>
-        </NewBadge>
+        <Switch>
+          <Route exact path="/" component={Main}></Route>
+          <Route exact path="/new" component={NewBadge}></Route>
+        </Switch>
       </Layout>
     </BrowserRouter>
   );
