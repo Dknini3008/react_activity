@@ -1,15 +1,15 @@
 import React from "react";
-import Badge from "./components/Badge";
+import Layout from "./pages/Layout/Layout"
+import Main from "./pages/main/Main"
+
 
 function App() {
   return (
     <React.Fragment>
-      <Badge></Badge>
-      <Badge></Badge>
-      <Badge></Badge>
-      <Badge></Badge>
+      <Layout>
+        <Main title={"Welcome"}></Main>
+      </Layout>
     </React.Fragment>
-    
   );
 }
 
